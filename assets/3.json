@@ -1,0 +1,23 @@
+{
+  "name": "OLD_TRUCK",
+  "symbol": "RP",
+  "image": "3.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "3.png",
+        "type": "image/jpg"
+      }
+    ],
+    "creators": [
+      {
+        "address": "BmNU9d1fQsDe6Zh5tTfghT4iy2yA22ud2B4hMv6H5FB2",
+        "share": 100
+      }
+    ]
+  },
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "RandomPics"
+  }
+}

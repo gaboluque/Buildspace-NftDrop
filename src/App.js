@@ -1,6 +1,7 @@
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import React, {useEffect, useState} from 'react';
+import CandyMachine from './CandyMachine';
 
 // Constants
 const TWITTER_HANDLE = 'gabo_luquem';
@@ -9,10 +10,6 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const App = () => {
   const [walletAddress, setWalletAddress] = useState(null);
 
-
-  /*
-  * Declare your function
-  */
   const checkIfWalletIsConnected = async () => {
     try {
       const {solana} = window;
@@ -92,6 +89,7 @@ const App = () => {
           <p className="sub-text">NFT drop machine with fair mint</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
+        {walletAddress && <CandyMachine walletAddress={window.solana}/>}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo}/>
           <a

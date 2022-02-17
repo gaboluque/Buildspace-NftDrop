@@ -1,0 +1,23 @@
+{
+  "name": "LANDSCAPE",
+  "symbol": "RP",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/jpg"
+      }
+    ],
+    "creators": [
+      {
+        "address": "BmNU9d1fQsDe6Zh5tTfghT4iy2yA22ud2B4hMv6H5FB2",
+        "share": 100
+      }
+    ]
+  },
+  "seller_fee_basis_points": 500,
+  "collection": {
+    "name": "RandomPics"
+  }
+}
